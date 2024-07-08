@@ -3,7 +3,7 @@ name: exemplo-basico
 on:
     pull_request:
         branches:
-            - main
+            - master
 
 jobs:
     check-application:
