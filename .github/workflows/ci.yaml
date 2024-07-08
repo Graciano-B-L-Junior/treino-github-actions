@@ -1,6 +1,9 @@
 name: exemplo-basico
 
-on: [push]
+on:
+    pull_request:
+        branches:
+            - main
 
 jobs:
     check-application:
